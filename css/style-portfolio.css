@@ -1,0 +1,19 @@
+.imageLink img {width: 700px;}
+
+.projectText p {text-align: left;}
+
+
+@media screen and (max-width: 1000px) {
+	.imageLink img{ width:500px; }
+
+}
+
+@media (max-width: 700px) {
+	.imageLink img{ width:300px; }
+
+}
+
+
+
+
+

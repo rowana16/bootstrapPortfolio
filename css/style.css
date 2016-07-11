@@ -1,0 +1,48 @@
+/* NavBar */
+.navbar{margin:0; background-color: #0e3f5f;}
+#navBar a, #brand a {color: white;}
+#navBar .active a {background-color: #4ca1d8;}
+.jumbotron{ background-color: #c6c6c6; }
+
+
+/*body*/
+.tags{width:190px;}
+#main, #about, #connect{text-align: center; }
+#connect ul {list-style: none; padding:0;}
+#main {margin-bottom: 25px;}
+
+hr {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+
+/*responsive */
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px)
+{ 
+	#headline{ width:320px; }
+ }
